@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 224, 215);
+  color:rgb(26, 24, 47);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#title {
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+#text {
+    font-size: 1.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1.6rem;
+}
+
+#text-area {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 236, 229);
+    color:rgb(89, 131, 115);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(26, 24, 47, 0.664);
+}
+
+#counter-btn {
+    margin: 1rem;
+    font-size: 1rem;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(26, 24, 47);
+    color:rgb(195, 224, 215);
+    border-radius: 3px;
+}
+
+
+#counter-btn:hover {
+    background-color: rgb(123, 149, 141); 
+    color:rgb(26, 24, 47);
+    transition: 0.7s ease all;
+    border: 3px solid rgb(26, 24, 47);
+}
+
+#word-num {
+    font-size: 2rem;
+    margin: 2rem;
+    color:rgb(26, 24, 47);
+    text-align: center;
+}
